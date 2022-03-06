@@ -1,0 +1,148 @@
+{
+  "batches": [
+    {
+      "name": "2021 CSE 16",
+      "shortCode": "cse16"
+    },
+    {
+      "name": "2022 CSE 17",
+      "shortCode": "cse17"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Machine Learning",
+      "shortCode": "ml"
+    },
+    {
+      "name": "Natural Language Processing",
+      "shortCode": "nlp"
+    },
+    {
+      "name": "Internet of Things",
+      "shortCode": "iot"
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "batch": "cse17",
+      "title": "Привет, мир!",
+      "description": "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quaerat! Voluptatum, quibusdam!",
+      "image": "https://picsum.photos/id/1/300/160",
+      "categories": ["ml", "nlp"],
+      "teamName": "Team-X",
+      "teamMembers": [
+        { "name": "John Doe", "index": "170XYZU" },
+        { "name": "Jane Doe", "index": "170XXYU" },
+        { "name": "Jack Doe", "index": "170XYWU" }
+      ],
+      "internalSupervisor": {
+        "name": "Dr. John Doe",
+        "sub": "University of ABC"
+      },
+      "externalSupervisor": {
+        "name": "Dr. John Doe",
+        "sub": "University of ABC"
+      },
+      "poster": "",
+      "report": ""
+    },
+    {
+      "id": "3",
+      "batch": "cse17",
+      "title": "Привет еще раз, мир!",
+      "description": "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quaerat! Voluptatum, quibusdam!",
+      "image": "https://picsum.photos/id/312/300/160",
+      "categories": ["iot"],
+      "teamName": "Team-Y",
+      "teamMembers": [
+        { "name": "John Doe", "index": "170XYZU" },
+        { "name": "Jane Doe", "index": "170XXYU" },
+        { "name": "Jack Doe", "index": "170XYWU" }
+      ],
+      "internalSupervisor": {
+        "name": "Dr. John Doe",
+        "sub": "University of ABC"
+      },
+      "externalSupervisor": {
+        "name": "Dr. John Doe",
+        "sub": "University of ABC"
+      },
+      "poster": "",
+      "report": ""
+    },
+    {
+      "id": "4",
+      "batch": "cse17",
+      "title": "Привет еще раз, мир!",
+      "description": "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quaerat! Voluptatum, quibusdam!",
+      "image": "https://picsum.photos/id/40/300/160",
+      "categories": ["iot"],
+      "teamName": "Team-Y",
+      "teamMembers": [
+        { "name": "John Doe", "index": "170XYZU" },
+        { "name": "Jane Doe", "index": "170XXYU" },
+        { "name": "Jack Doe", "index": "170XYWU" }
+      ],
+      "internalSupervisor": {
+        "name": "Dr. John Doe",
+        "sub": "University of ABC"
+      },
+      "externalSupervisor": {
+        "name": "Dr. John Doe",
+        "sub": "University of ABC"
+      },
+      "poster": "",
+      "report": ""
+    },
+    {
+      "id": "5",
+      "batch": "cse17",
+      "title": "Привет еще раз, мир!",
+      "description": "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quaerat! Voluptatum, quibusdam!",
+      "image": "https://picsum.photos/id/112/300/160",
+      "categories": ["iot"],
+      "teamName": "Team-Y",
+      "teamMembers": [
+        { "name": "John Doe", "index": "170XYZU" },
+        { "name": "Jane Doe", "index": "170XXYU" },
+        { "name": "Jack Doe", "index": "170XYWU" }
+      ],
+      "internalSupervisor": {
+        "name": "Dr. John Doe",
+        "sub": "University of ABC"
+      },
+      "externalSupervisor": {
+        "name": "Dr. John Doe",
+        "sub": "University of ABC"
+      },
+      "poster": "",
+      "report": ""
+    },
+    {
+      "id": "6",
+      "batch": "cse16",
+      "title": "Привет еще раз, мир!",
+      "description": "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quaerat! Voluptatum, quibusdam!",
+      "image": "https://picsum.photos/id/927/300/160",
+      "categories": ["iot"],
+      "teamName": "Team-Y",
+      "teamMembers": [
+        { "name": "John Doe", "index": "170XYZU" },
+        { "name": "Jane Doe", "index": "170XXYU" },
+        { "name": "Jack Doe", "index": "170XYWU" }
+      ],
+      "internalSupervisor": {
+        "name": "Dr. John Doe",
+        "sub": "University of ABC"
+      },
+      "externalSupervisor": {
+        "name": "Dr. John Doe",
+        "sub": "University of ABC"
+      },
+      "poster": "",
+      "report": ""
+    }
+  ]
+}
