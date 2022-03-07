@@ -55,7 +55,7 @@ export default function Layout({ title, sidebar, children }) {
       header={
         <Header height={70} padding="md">
           {/* Handle other responsive styles with MediaQuery component or createStyles function */}
-          <Group>
+          <Group align="center" sx={{ height: "100%" }}>
             <MediaQuery largerThan="sm" styles={{ display: "none" }}>
               <Burger
                 opened={opened}
