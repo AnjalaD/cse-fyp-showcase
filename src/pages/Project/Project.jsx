@@ -63,9 +63,9 @@ export default function Project() {
                         height="500"
                         src="https://www.youtube.com/embed/KRvv0QdruMQ"
                         title="YouTube video player"
-                        frameborder="0"
+                        frameBorder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen
+                        allowFullScreen
                       ></iframe>
                     )}
                   </MediaQuery>
