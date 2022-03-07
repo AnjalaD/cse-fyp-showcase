@@ -9,18 +9,30 @@ import {
   Chips,
   Container,
   Group,
+  MediaQuery,
   Text,
   Title,
 } from "@mantine/core";
 import { MotionScene, MotionScreen, SharedElement } from "react-motion-layout";
 import { Redirect } from "react-router-dom";
 import { FaDownload } from "react-icons/fa";
+import { useEffect, useState } from "react";
 
 const { projects } = allData;
 
 export default function Project() {
-  const { projectId } = useParams();
+  const [showVideo, setShowVideo] = useState(false);
 
+  useEffect(() => {
+    const t = setTimeout(() => {
+      setShowVideo(true);
+    }, 1000);
+    return () => {
+      clearTimeout(t);
+    };
+  }, []);
+
+  const { projectId } = useParams();
   const project = projectId && projects.find(({ id }) => projectId === id);
 
   if (!project) {
@@ -35,11 +47,28 @@ export default function Project() {
             <Card.Section>
               <MotionScene name={`project-${project.id}`}>
                 <SharedElement.Div animationKey="project">
-                  <img
-                    style={{ width: "100%" }}
-                    src={project.image}
-                    alt="project"
-                  />
+                  <MediaQuery smallerThan="sm" styles={{ maxHeight: 300 }}>
+                    {!showVideo ? (
+                      <img
+                        style={{
+                          width: "100%",
+                          objectFit: "contain",
+                        }}
+                        src={project.image}
+                        alt="project"
+                      />
+                    ) : (
+                      <iframe
+                        width="100%"
+                        height="500"
+                        src="https://www.youtube.com/embed/KRvv0QdruMQ"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen
+                      ></iframe>
+                    )}
+                  </MediaQuery>
 
                   <Title order={4} mb="sm">
                     {project.title}

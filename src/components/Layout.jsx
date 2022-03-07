@@ -1,6 +1,5 @@
 import { useState } from "react";
 import {
-  Affix,
   AppShell,
   Box,
   Burger,
@@ -10,7 +9,6 @@ import {
   MediaQuery,
   Navbar,
   ScrollArea,
-  Text,
   useMantineTheme,
 } from "@mantine/core";
 
