@@ -19,7 +19,10 @@ export default function ProjectCard({
 
   return (
     <Card>
-      <Card.Section onClick={withTransition(onProjectClick)}>
+      <Card.Section
+        onClick={withTransition(onProjectClick)}
+        sx={{ cursor: "pointer" }}
+      >
         <MotionScene name={`project-${id}`}>
           <SharedElement.Div animationKey="project">
             <img style={{ width: "100%" }} src={image} alt="project" />
